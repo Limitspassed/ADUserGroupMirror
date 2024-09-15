@@ -8,15 +8,15 @@ The **AD User Group Mirror** script is a PowerShell utility designed for managin
 
 The repository is structured as follows:
 
-ADUserGroupMirror/
-├── 1.0/                           # Version directory
-│   ├── Public/                    # Public scripts
-│   │   ├── Add-ADUserGroups.ps1        # Script for adding user groups
-│   │   ├── Get-ADUserGroups.ps1        # Script for retrieving user groups
-│   │   ├── Remove-ADUserGroups.ps1     # Script for removing user groups
-│   │   └── Send-Report.ps1             # Script for sending email reports
-│   ├── ADUserGroupMirror.psd1          # Module manifest file
-│   ├── ADUserGroupMirror.psm1          # The main PowerShell module file
+.
+├── 1.0/                   
+│   ├── Public/ 
+│   │   ├── Add-ADUserGroups.ps1        # Script for adding user groups 
+│   │   ├── Get-ADUserGroups.ps1        # Script for retrieving user groups 
+│   │   ├── Remove-ADUserGroups.ps1     # Script for removing user groups 
+│   │   └── Send-Report.ps1             # Script for sending email reports 
+│   ├── ADUserGroupMirror.psd1          # Module manifest file 
+│   ├── ADUserGroupMirror.psm1          # The main PowerShell module file 
 │   └── ExampleScript.ps1               # Example usage script
 └── ...
 
