@@ -1,4 +1,4 @@
-# AD User Group Mirror Script#
+# AD User Group Mirror Script
 
 ## Overview
 
@@ -79,7 +79,7 @@ Follow the prompts to provide necessary input or use default values.
 For custom usage, run the individual scripts as needed. For example, to add groups:
 - Get-ADUserGroups -user1 "User1" -user2 "User2" |
 	- Add-ADUserGroups -Do $True -Export $True |
-    - Send-Report -SmtpServer "smtp.example.com" -SmtpPort 587 -From "default@example.com" -To "recipient@example.com" -Subject "Group Add Report" -Body "Details of groups added."
+	- Send-Report -SmtpServer "smtp.example.com" -SmtpPort 587 -From "default@example.com" -To "recipient@example.com" -Subject "Group Add Report" -Body "Details of groups added."
 
 ## Notes
 
